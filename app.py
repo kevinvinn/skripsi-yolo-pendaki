@@ -24,7 +24,7 @@ st.write("Gunakan aplikasi ini untuk mendeteksi dan mencatat barang bawaan logis
 # --- SIDEBAR (PENGATURAN MODEL) ---
 st.sidebar.header("Pengaturan Model")
 # Parameter Confidence Slider (sangat berguna saat sidang)
-conf_threshold = st.sidebar.slider("Ambang Batas (Confidence Score)", 0.0, 1.0, 0.47)
+conf_threshold = st.sidebar.slider("Ambang Batas (Confidence Score)", 0.0, 1.0, 0.49)
 
 # --- PILIHAN SUMBER DATA ---
 source = st.radio("Pilih Sumber Gambar:", ("Unggah File (Foto)", "Ambil Foto (Kamera HP/Laptop)"))
